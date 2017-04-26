@@ -5,6 +5,26 @@
 	font-family: 'Vollkorn', serif;
 	color: #fff;
 }
+h5 {
+	font-size: 2em;
+	letter-spacing: 7px;
+	font-size: 50px;
+}
+.bg		{
+	background-image: url('../img/dna.jpg');
+	height:   1000px;
+	background-size: cover;
+	background-position: center;
+}
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aligner-item {
+  max-width: 30%;
+}
+
 /*----- NAV BAR --------*/
 
 /*----- JUMBOTRON --------*/
