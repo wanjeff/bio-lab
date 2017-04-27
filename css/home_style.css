@@ -5,17 +5,44 @@
 	font-family: 'Vollkorn', serif;
 	color: #fff;
 }
-h5 {
-	font-size: 2em;
-	letter-spacing: 7px;
-	font-size: 50px;
-}
 .bg		{
 	background-image: url('../img/dna.jpg');
 	height:   1000px;
 	background-size: cover;
 	background-position: center;
 }
+
+/*========== CAROUSEL ==========*/
+.item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.item .btn-warning {
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#main-logo {
+  width: 300px;
+  transform:translate(0,50%);
+}
+#seatin-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+/*----- TITLE --------*/
+h5 {
+	font-size: 2em;
+	letter-spacing: 7px;
+	font-size: 50px;
+}
+/*----- CONTENT --------*/
 .aligner {
   display: flex;
   align-items: center;
@@ -29,8 +56,3 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
-/*----- NAV BAR --------*/
-
-/*----- JUMBOTRON --------*/
-
-/*----- CONTENT --------*/
