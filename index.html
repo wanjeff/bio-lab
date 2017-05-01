@@ -8,8 +8,43 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/home_style.css">
 </head>
-
 <body class="bg">
+
+
+<!-- CAROUSEL starts here -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" id="meiosis1">
+      <div class="carousel-caption">
+        <h3>Meiosis Part I</h3>
+      </div>
+    </div>
+    <div class="item" id="meiosis2">
+      <div class="carousel-caption">
+        <h3>Meiosis Part II</h3>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- CAROUSEL ends here -->
 		<div class="container vollkorn-text">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -18,29 +53,26 @@
 						</div>
 				</div>
 			</div>
-			<div class="row center-block">
+			<div class="row">
 				<div class="col-md-12">
-						<div class="aligner-item">
-							<p>	This box is both vertically and horizontally centered. Even if the text in this box changes to make it wider or taller, the box will still be centered. Go ahead, give it a try. Just click to edit the text.</p>
+						<div class="aligner-item center-block">
+							<!-- Single button -->
+							<div class="btn-group">
+							  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    SELECT LAB <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="lab-1.html">Meiosis 1</a></li>
+							    <li><a href="lab-2.html">Meiosis 2</a></li>
+							  </ul>
+							</div>
 						</div>
 				</div>
-			</div>		
+			</div>
 		</div>
 
 
 <!-- OLD CONTENT BEGINS -->
-	<div class="content">
-		<span>BIOLOGY &nbsp; LABORATORY</span>
-			<div class="dropdown">
-  				<a>Enter</a>
-  					<div class="dropdown-content">
-					    <a href="cell_chemistry/cell_chemistry.html">Cell Chemistry</a>
-	      				<a href="microscopy/microscopy.html">Microscopy</a>
-	      				<a href="osmosis/osmosis.html">Osmosis</a>
-	      				<a href="scientific_method/scientific_method.html">Scientific Method</a>
-  					</div>
-			</div>
-	</div>
 <!-- OLD CONTENT ENDS -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

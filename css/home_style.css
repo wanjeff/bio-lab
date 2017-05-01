@@ -5,28 +5,50 @@
 	font-family: 'Vollkorn', serif;
 	color: #fff;
 }
-h5 {
-	font-size: 2em;
-	letter-spacing: 7px;
-	font-size: 50px;
-}
 .bg		{
 	background-image: url('../img/dna.jpg');
 	height:   1000px;
 	background-size: cover;
 	background-position: center;
 }
+
+/*========== CAROUSEL ==========*/
+.item {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+.item .btn-warning {
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+#meiosis1 {
+  background-image: url('../img/meiosis.png');
+}
+
+#meiosis2 {
+  background-image: url('../img/meiosis2.png');
+}
+h3 {
+	text-shadow: 2px 2px 8px #000;
+	font-weight: bold;
+	font-size: 40px;
+}
+/*----- TITLE --------*/
+h5 {
+	font-size: 2em;
+	letter-spacing: 7px;
+	font-size: 50px;
+}
+/*----- CONTENT --------*/
 .aligner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .aligner-item {
-  max-width: 30%;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	max-width: 10%;
 }
-
-/*----- NAV BAR --------*/
-
-/*----- JUMBOTRON --------*/
-
-/*----- CONTENT --------*/
