@@ -14,7 +14,7 @@
 
 /*========== CAROUSEL ==========*/
 .item {
-  height: 500px;
+  height: 450px;
   background-size: cover;
   background-position: center;
 }
@@ -22,19 +22,17 @@
   background-color: #F8512F;
   border-color: #F8512F;
 }
-#wood-background {
-  background-image: url('../img/wood-2.jpg');
+#meiosis1 {
+  background-image: url('../img/meiosis.png');
 }
 
-#main-logo {
-  width: 300px;
-  transform:translate(0,50%);
+#meiosis2 {
+  background-image: url('../img/meiosis2.png');
 }
-#seatin-background {
-  background-image: url('../img/restaurant-2.jpg');
-}
-#farm-background {
-  background-image: url('../img/farm-2.jpg');
+h3 {
+	text-shadow: 2px 2px 8px #000;
+	font-weight: bold;
+	font-size: 40px;
 }
 /*----- TITLE --------*/
 h5 {
@@ -49,10 +47,8 @@ h5 {
   justify-content: center;
 }
 .aligner-item {
-  max-width: 30%;
-}
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	max-width: 10%;
 }

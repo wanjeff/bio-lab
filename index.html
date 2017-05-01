@@ -9,25 +9,24 @@
 	<link rel="stylesheet" href="css/home_style.css">
 </head>
 <body class="bg">
+
+
 <!-- CAROUSEL starts here -->
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="/img/meiosis.png" alt="meiosis1">
+    <div class="item active" id="meiosis1">
       <div class="carousel-caption">
         <h3>Meiosis Part I</h3>
       </div>
     </div>
-    <div class="item">
-      <img src="/img/meiosis2.png" alt="meiosis2">
+    <div class="item" id="meiosis2">
       <div class="carousel-caption">
         <h3>Meiosis Part II</h3>
       </div>
@@ -57,7 +56,16 @@
 			<div class="row">
 				<div class="col-md-12">
 						<div class="aligner-item center-block">
-							<p>	This box is both vertically and horizontally centered. Even if the text in this box changes to make it wider or taller, the box will still be centered. Go ahead, give it a try. Just click to edit the text.</p>
+							<!-- Single button -->
+							<div class="btn-group">
+							  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    SELECT LAB <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="lab-1.html">Meiosis 1</a></li>
+							    <li><a href="lab-2.html">Meiosis 2</a></li>
+							  </ul>
+							</div>
 						</div>
 				</div>
 			</div>
@@ -65,18 +73,6 @@
 
 
 <!-- OLD CONTENT BEGINS -->
-	<div class="content">
-		<span>BIOLOGY &nbsp; LABORATORY</span>
-			<div class="dropdown">
-  				<a>Enter</a>
-  					<div class="dropdown-content">
-					    <a href="cell_chemistry/cell_chemistry.html">Cell Chemistry</a>
-	      				<a href="microscopy/microscopy.html">Microscopy</a>
-	      				<a href="osmosis/osmosis.html">Osmosis</a>
-	      				<a href="scientific_method/scientific_method.html">Scientific Method</a>
-  					</div>
-			</div>
-	</div>
 <!-- OLD CONTENT ENDS -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
