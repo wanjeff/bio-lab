@@ -19,6 +19,31 @@ h5 {
 	letter-spacing: 7px;
 	font-size: 50px;
 }
+/*----- NAV BAR --------*/
+.title {
+	color: #fff;
+	text-shadow: 2px 2px 8px #000;
+}
+.navbar-default {
+	background-color: transparent;
+	border: none;
+	position: fixed;
+}
+.navbar-right {
+	padding-top: 15px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #F8512F;
+  background-color: rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+}
 /*----- CONTENT --------*/
 .aligner {
   display: flex;
